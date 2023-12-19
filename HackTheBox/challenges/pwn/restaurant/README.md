@@ -1,0 +1,1 @@
+Simple ret2libc rop exploit. Leak libc offset with the GOT value of PUTS, then run `system('/bin/sh')`
